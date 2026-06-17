@@ -1,4 +1,4 @@
-name: Hello World # workflow name
+name: githubactions # workflow name
 on: [push] # event
 jobs: # it can contain multiple jobs
   github-actions-test: # job name
