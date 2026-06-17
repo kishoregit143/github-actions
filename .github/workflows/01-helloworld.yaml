@@ -1,10 +1,10 @@
 name: Hello World # workflow name
 on: [push] # event
 jobs: # it can contain multiple jobs
-  hello: # job name
+  github-actions-test: # job name
     runs-on: ubuntu-latest # where to run
     steps:
-      - name: Print Hello kishore babu
+      - name: githubactions run
         run: echo "Hello, how r u pagadala!"
 
 # Workflow : An automation process in yaml that runs multiple events and triggers by events in github
