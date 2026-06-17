@@ -1,0 +1,17 @@
+name: Hello World # workflow name
+on: [push] # event
+jobs: # it can contain multiple jobs
+  hello: # job name
+    runs-on: ubuntu-latest # where to run
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, world!"
+
+# Workflow : An automation process in yaml that runs multiple events and triggers by events in github
+
+# Events : any update in GitHub repo can be consider as event
+
+# Job : is a collection of  steps that can be executed in CICD process like checkout, build, scan , etc..
+# Actions: like plugins , reusable snippets like checkouts , setup terraform , etc ..Adds extra functionality to our workflows 
+
+# Runners : nothing but agents in Jenkins, Where our workflow run        
