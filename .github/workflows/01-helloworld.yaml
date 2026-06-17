@@ -4,8 +4,8 @@ jobs: # it can contain multiple jobs
   hello: # job name
     runs-on: ubuntu-latest # where to run
     steps:
-      - name: Print Hello World
-        run: echo "Hello, world!"
+      - name: Print Hello kishore babu
+        run: echo "Hello, how r u pagadala!"
 
 # Workflow : An automation process in yaml that runs multiple events and triggers by events in github
 
